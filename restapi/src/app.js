@@ -14,7 +14,7 @@ app.use(studentRouter);
 // })
 
 
-app.listen(port, () => {
+app.listen(3000, () => {
     console.log(`connection is setup at ${port}`);
 })
 

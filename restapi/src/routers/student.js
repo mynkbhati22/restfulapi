@@ -25,6 +25,14 @@ router.post('/students', async (req, res) => {
 })
 
 
+router.get('/', async (req, res) => {
+    try {
+        const studentsData = await Student.find();
+        res.send(studentsData);
+    } catch (e) {
+        res.send(e);
+    }
+})
 
 
 router.get('/students', async (req, res) => {
