@@ -1,6 +1,8 @@
+
 const express = require("express");
 // * creating a new router
 const router = new express.Router();
+
 const Student = require("../models/students");
 
 // *need to define a router
@@ -93,3 +95,7 @@ router.delete('/students/:id', async (req, res) => {
 })
 
 module.exports = router;
+
+
+
+
