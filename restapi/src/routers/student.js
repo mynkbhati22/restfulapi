@@ -9,6 +9,11 @@ const Student = require("../models/students");
 
 // CREATING A NEW STUDENT
 
+
+
+
+
+
 router.post('/students', async (req, res) => {
 
     // console.log(req.body);
